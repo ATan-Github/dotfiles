@@ -1,5 +1,9 @@
 "plugins.vim"
 
+"After adding plug-ins
+"source %   -   % means this file
+":PlugInstall
+
 " Auto installs vim-plug manager`
 if empty(glob('~/.vim/autoload/plug.vim'))
   silent !curl -fLo ~/.vim/autoload/plug.vim --create-dirs
@@ -36,6 +40,9 @@ Plug 'godlygeek/tabular'
 " Indentation guidlines"
 Plug 'yggdroot/indentline'
 
+" Comment everything "
+Plug 'tpope/vim-commentary'
+
 
 
 "======= Git Extensions ======="
@@ -47,11 +54,12 @@ Plug 'Xuyuanp/nerdtree-git-plugin'
 Plug 'airblade/vim-gitgutter'
 
 
-"======= Git Extensions ======="
+
+"======= Syntax ======="
 
 
 
-"======= Git Extensions ======="
+"======= Visual Extensions ======="
 
 " Enable airline status bar
 Plug 'vim-airline/vim-airline'
