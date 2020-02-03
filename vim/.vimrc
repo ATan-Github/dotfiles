@@ -1,10 +1,10 @@
 if has("unix")
 	source $HOME/.vim/vimrc/plugins.vim
-	source $HOME/.vim/vimrc/plug_configs.vim
+	source $HOME/.vim/vimrc/configs.vim
 	source $HOME/.vim/vimrc/settings.vim
 elseif has ("win32")
 	source $HOME/_vim/vimrc/plugins.vim
-	source $HOME/_vim/vimrc/plug_configs.vim
+	source $HOME/_vim/vimrc/configs.vim
 	source $HOME/_vim/vimrc/settings.vim
 endif
 
